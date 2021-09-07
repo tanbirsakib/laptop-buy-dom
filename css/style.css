@@ -1,0 +1,121 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+/* 
+========================
+Basic Components Start
+========================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* 
+========================
+Basic Components End
+========================
+*/
+
+/*
+=======================
+ mac-book Section Start 
+ ======================
+*/
+main img {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.imac-description h1 {
+  margin-top: 50px;
+}
+.imac-description p {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.imac-description h2 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  margin-right: 0.2rem;
+  border-radius: 20px;
+}
+button:not(:disabled) {
+  background-color: rgb(227, 231, 231);
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+button:hover {
+  background-color: black;
+  color: #fff !important;
+}
+#free-delivery{
+  margin-bottom: 10px;
+}
+h5 {
+  padding: 10px;
+  font-weight: 500 !important;
+}
+.all-price-section {
+  margin-top: 30px;
+  background-color: #e7ffff;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+hr {
+  margin: 0 !important;
+}
+h4 {
+  padding: 10px;
+}
+.coupon {
+  margin-bottom: 30px;
+}
+input {
+  height: 33px;
+}
+.btn-apply:hover {
+  background-color: #6088ff;
+}
+center h3 {
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#success {
+  background-color: yellowgreen;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+}
+#fail {
+  background-color: #ca021c;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+}
+#cupon-field {
+  transition: all 1s ease;
+}
+/*
+=======================
+ mac-book Section End 
+ ======================
+*/
