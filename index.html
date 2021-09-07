@@ -13,13 +13,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>Apple | Mac-book Pro</title>
+    <title>Apple</title>
 </head>
 
 <body>
-<!-- header starts -->
-<!-- head ends -->
-<!-- main section starts  -->
+   <header>
+       <h1 class="text-center mt-5 text-info">Buy Mac : Mac Bazer</h1>
+   </header>
+
     <main>
         <section class="mac-setion">
             <div class="container">
@@ -41,10 +42,10 @@
                             <button id="storage-512" class="btn">512GB SSD storage</button>
                             <button id="storage-1tb" class="btn">1TB SSD storage</button>
                             <h2>Choose Your Delivery option</h2>
-                            <button id="free-delivery" class="btn">Friday , Aug 25 Free Prime Delivery </button>
+                            <button id="free-delivery" class="btn mb-2">Friday , Aug 25 Free Prime Delivery </button>
                             <button id="paid-delivery-cost" class="btn">Friday , Aug 21 Delivery Charge $20 </button>
 
-                            <!--================== All Prices Section ===================-->
+                            <!----------------------- prices  ------------------->
                             <section class="all-price-section">
                                 <div class="best-price-section d-flex justify-content-between">
                                     <div class="best-price-text">
@@ -94,12 +95,9 @@
                             </section>
                             <div class="coupon" id="prmo-section">
                                 <h6>Have a promo code ? apply now!</h6>
-                                <div id="cupon-field" class="coupon-feild">
-                                    <input type="text">
+                                <div  class="coupon-feild">
+                                    <input id="cupon-field" class="mr-2" type="text">
                                     <button id="apply" class="btn btn-apply">Apply</button>
-                                    <p id="success" style="display: none;">discount added $<span
-                                            id="disc_amount"></span></span id="discValue">%</span>)</p>
-                                    <p id="fail" style="display: none;">invalid promo code<span></span></p>
                                 </div>
                             </div>
                         </div>
@@ -109,14 +107,15 @@
             </div>
         </section>
         <!-- Last Total Price -->
+        <hr class="w-75 mx-auto"> 
         <center>
             <h3 id="total">Total :$ <span id="promo-total"></span></h3>
         </center>
     </main>
-    <!-- main section ends  -->
 
 
-   <!-- scripts  -->
+  
+   <!------------------- scripts  ------------------->
     <script src="js/script.js"></script>
 </body>
 

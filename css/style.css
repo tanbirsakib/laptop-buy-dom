@@ -1,11 +1,7 @@
-/* Google Fonts */
+/*---------------------------------- Google Fonts------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
 
-/* 
-========================
-Basic Components Start
-========================
-*/
+/*----------------------------------- style for all ------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -14,18 +10,8 @@ Basic Components Start
 body {
   font-family: "Poppins", sans-serif;
 }
+/*------------------------------- macbook-------------------------- */
 
-/* 
-========================
-Basic Components End
-========================
-*/
-
-/*
-=======================
- mac-book Section Start 
- ======================
-*/
 main img {
   width: 100%;
   height: auto;
@@ -58,11 +44,8 @@ button:not(:disabled) {
   transition: 0.5s ease;
 }
 button:hover {
-  background-color: black;
+  background-color: rgb(13, 74, 114);
   color: #fff !important;
-}
-#free-delivery{
-  margin-bottom: 10px;
 }
 h5 {
   padding: 10px;
@@ -70,7 +53,8 @@ h5 {
 }
 .all-price-section {
   margin-top: 30px;
-  background-color: #e7ffff;
+  background-color: rgb(13, 74, 114);
+  color: white;
   padding: 20px;
   margin-bottom: 50px;
   border-radius: 15px;
@@ -114,8 +98,3 @@ center h3 {
 #cupon-field {
   transition: all 1s ease;
 }
-/*
-=======================
- mac-book Section End 
- ======================
-*/
